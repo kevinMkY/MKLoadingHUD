@@ -473,10 +473,8 @@ NSString * const mk_errorImageName = @"error";
 {
     if(self.defaultStyle == MKLoadingHUDStyleLight) {
         return [UIColor whiteColor];
-    } else if(self.defaultStyle == MKLoadingHUDStyleDark) {
+    } else{
         return [UIColor blackColor];
-    }else{
-        return self.tintColor;
     }
 }
 
