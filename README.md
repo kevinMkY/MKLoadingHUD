@@ -1,7 +1,6 @@
 # MKLoadingHUD
 
-我想很多同学和我一样,在手里捏着 MB 和 SV 的好牌,却因为需要高度自定义 UI 而放弃了.
-所以,我们需要这款 Loading HUD 来进行深度自定义
+自定义Loading HUD
 
 效果展示:
 ![]() 
@@ -68,7 +67,5 @@ typedef NS_ENUM(NSUInteger, MKLoadingHUDMaskType) {
     MKLoadingHUDMaskTypeGradient
 };
 ```
-
-# 后续会不断添加新的动画效果,希望同各位多交流
 
 PS:素材来自网络,此处谨做学习使用,如有侵权,请告知我,我会尽快删除~
